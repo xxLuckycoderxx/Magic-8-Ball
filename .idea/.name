@@ -9,11 +9,11 @@ double inches;
 keyboard=new Scanner(System.in);
 
 System.ou.println("Please enter your weight below (pounds only) bellow");
-pounds=keyboard.nextLine();
+pounds=keyboard.nextInt();
 pounds=weight*(0.453592/1);
 
-Sytem.out.println("Please enter your height(inches only)bellow');
-inches=keyboard.nextLine();
+System.out.println("Please enter your height(inches only)bellow');
+inches=keyboard.nextInt();
 inches=height*(0.0254/1);
 
 System.out.println("Your BMI is " + (pounds /inches *inches));
