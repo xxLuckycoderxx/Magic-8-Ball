@@ -8,7 +8,7 @@ double inches;
 
 keyboard=new Scanner(System.in);
 
-System.ou.println("Please enter your weight below (pounds only) bellow");
+System.out.println("Please enter your weight below (pounds only) bellow");
 pounds=keyboard.nextInt();
 pounds=weight*(0.453592/1);
 
