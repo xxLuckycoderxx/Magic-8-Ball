@@ -1,1 +1,33 @@
 Magic 8 Ball
+
+public static void main(String[]args{
+
+Scanner keyboard;
+double pounds;
+double inches;
+
+keyboard=new Scanner(System.in);
+
+System.ou.println("Please enter your weight below (pounds only) bellow");
+pounds=keyboard.nextLine();
+pounds=weight*(0.453592/1);
+
+Sytem.out.println("Please enter your height(inches only)bellow');
+inches=keyboard.nextLine();
+inches=height*(0.0254/1);
+
+System.out.println("Your BMI is " + (pounds /inches *inches));
+
+
+
+
+
+
+
+
+
+
+
+
+     }
+}
